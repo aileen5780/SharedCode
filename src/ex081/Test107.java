@@ -10,7 +10,7 @@ public class Test107 {
 	public static void main(String[] args) {
 		Test107 obj1 = new Test107();
 		Test107 obj2 = obj1;
-//		Test107 obj1 = null;
+		Test107 obj3 = null;
 		obj2.num = 60;
 		graceMarks(obj2);
 
