@@ -4,7 +4,7 @@ interface Test150 {
 	String type = "A";
 	void fly();
 	
-	default String getType(){
-		return type;
-	}
+//	default String getType(){
+//		return type;
+//	}
 }

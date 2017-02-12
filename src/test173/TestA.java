@@ -11,8 +11,8 @@ public class TestA extends Root {
 	
 }
 
- interface I{
-	default void print(){
-		
-	}
-}
+// interface I{
+//	default void print(){
+//		
+//	}
+//}

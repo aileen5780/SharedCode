@@ -12,7 +12,7 @@ public class Test64 {
 		list.add(13);
 		list.add(30);
 		list.add(11);
-		list.removeIf(m->m%2 != 0);
+//		list.removeIf(m->m%2 != 0);
 		list.removeIf(new Predicate<Integer>(){
 
 			@Override

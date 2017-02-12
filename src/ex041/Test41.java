@@ -18,7 +18,7 @@ public class Test41 {
 			
 		};
 		
-		Runnable run1 = (int y) -> {};
+//		Runnable run1 = (int y) -> {};
 	}
 
 }
