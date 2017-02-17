@@ -8,13 +8,14 @@ public class Test180 {
 		for (String c : colors) {	 
 			if (count >= 4) {	 
 				break; 
-			}else {		 
-					continue;
-				} 
-//			if (c.length() >= 4) {		 
-//				colors[count] = c.substring(0,3);	 
-//			}	 
-//		count++;	 
+			} else {System.out.println("A");}
+//			} else {		 
+//					continue;
+//				} 
+			if (c.length() >= 4) {		 
+				colors[count] = c.substring(0,3);	 
+			}	 
+		count++;	 
 		}		 
 		System.out.println(colors[count]);		 
 		}	 

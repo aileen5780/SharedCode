@@ -11,7 +11,7 @@ public class Test165 {
 			System.out.println("=" + sum);
 			
 
-////		System.out.println("Sum for 0 to " + x);
+//		System.out.println("Sum for 0 to " + x);
 //		System.out.println("=" + sum);
 
 	}

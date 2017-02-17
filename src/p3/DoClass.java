@@ -5,7 +5,7 @@ import p1.DoInterface;
 public class DoClass implements DoInterface {
 	int x1, x2;
 	
-	DoClass(){
+	public DoClass(){
 		this.x1 = 0;
 		this.x2 = 10;
 	}

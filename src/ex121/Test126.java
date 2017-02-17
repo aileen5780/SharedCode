@@ -22,7 +22,7 @@ public class Test126 {
 		doSomethingElse();
 	}
 	static void doSomethingElse() throws SpecialException{
-		throw new SpecialException("Thrown at end of doSomething90 method");
+		throw new SpecialException("Thrown at end of doSomething() method");
 	}
 
 }

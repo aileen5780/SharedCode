@@ -5,7 +5,7 @@ public class Test010 {
 	public double area;
 	public Test010(double r){radius = r;}
 	public double getRadius(){return radius;}
-	public void setRadius(double r){radius = r;}
+	protected void setRadius(double r){radius = r;}
 	public double getArea(){
 		return Math.PI*radius*radius;
 	}
