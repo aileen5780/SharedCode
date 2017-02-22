@@ -12,10 +12,8 @@ public class Test005 extends Mid {
 	int n1 = 22, n2 = 2; 
 	// insert code here
 	Test005 c = new Test005();
-	int n3 = c.findMid(n1, n2);
-	
-//	Test005 c = new Mid();
-	 
+	int n3 = c.findMid(n1, n2);	
+//	Test005 c = new Mid();	 
 	System.out.print(n3);
 	 
 	}

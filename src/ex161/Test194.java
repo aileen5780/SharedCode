@@ -5,7 +5,7 @@ public class Test194 {
 	void disp(){
 		while(i<=5){
 			for(int i=1; i<=5;){
-				System.out.println(i+"");
+				System.out.print(i+" ");
 				i++;				
 			}
 			i++;
