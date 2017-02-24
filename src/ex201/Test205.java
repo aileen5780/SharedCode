@@ -6,8 +6,7 @@ import java.util.List;
 public class Test205 {
 
 	public static void main(String[] args) {
-		List colors = new ArrayList();
-		
+		List colors = new ArrayList();		
 		colors.add("green");
 		colors.add("red");
 		colors.add("blue");
@@ -15,8 +14,5 @@ public class Test205 {
 		colors.remove(2);
 		colors.add(3, "cyan");
 		System.out.println(colors);
-		
-
 	}
-
 }

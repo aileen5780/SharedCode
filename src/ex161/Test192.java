@@ -1,7 +1,6 @@
 package ex161;
 
 public class Test192 {
-
 	public static void main(String[] args) {
 		StringBuilder message = new StringBuilder ("hello java!");
 		int pos =0;
@@ -13,14 +12,11 @@ public class Test192 {
 					case 'o':
 						String uc = Character.toString(message.charAt(pos)).toUpperCase();
 						message.replace(pos, pos+1, uc);
-				}
-				
+				}				
 			}
 		}catch (Exception e){
 			System.out.println("Out of limits");
 		}
 		System.out.println(message);
-
 	}
-
 }

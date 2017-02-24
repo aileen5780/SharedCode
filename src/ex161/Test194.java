@@ -13,7 +13,5 @@ public class Test194 {
 	}
 	public static void main(String[] args) {
 		new Test194().disp();
-
 	}
-
 }
